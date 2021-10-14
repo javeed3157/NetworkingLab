@@ -3,7 +3,6 @@ import java.io.*;
 // 39110926-SHAIK JAVEED SUHAIL
 public class udpclient {
     public static int client = 789;
-
     public static void main(String args[]) throws IOException {
         DatagramSocket ds = new DatagramSocket(client);
         byte b[] = new byte[1024];

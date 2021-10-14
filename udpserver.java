@@ -4,7 +4,6 @@ import java.io.*;
 public class udpserver {
     public static int client = 789;
     public static int server = 790;
-
     public static void main(String arg[]) throws IOException {
         String s;
         InetAddress id = InetAddress.getLocalHost();
